@@ -5,20 +5,24 @@ jQuery plugin to unobfuscate your obfuscated "mailto:" anchors.
 
 # Usage
 
-In your HTML, hide your email anchor tags like so:
+1. In your HTML, hide your email anchor tags like so:
 ```html
 <a href="#">joe^exaFAKEDIVmple$coFAKEDIVm</a>
 ```
 
-Call this somewhere via javascript, eg. in your <head> tag:
-    <script>
-      $(function() {
-        $('a.unobfuscate').unobfuscate();
-      });
-    </script>
+2. Call this somewhere via javascript, eg. in your ```<head>``` tag:
+```html
+  <script>
+    $(function() {
+      $('a.unobfuscate').unobfuscate();
+    });
+  </script>
+```
 
-This will convert your HTML to:
-    <a href="mailto:joe@example.com">joe@example.com</a>
+3. This will convert your HTML to:
+```html
+<a href="mailto:joe@example.com">joe@example.com</a>
+```
 
 # Credits
 
